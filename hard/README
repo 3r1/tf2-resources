@@ -1,0 +1,193 @@
+based on "xhairshadowdefault" crosshair
+
+reason: higher contrast, additional color
+
+result:
+darkened blacks
+added pink contrasts
+added circle variations
+
+----
+
+list of files sorted by class and weapon type for reference
+
+see https://cfg.tf/tools/crosshairs/names/ for a web table of the below list
+
+By File:
+Scout
+    tf_weapon_scattergun.txt                Scattergun, Force-A-Nature, Back Scatter
+    tf_weapon_soda_popper.txt               Soda Popper
+    tf_weapon_handgun_scout_primary.txt     Shortstop
+    tf_weapon_pep_brawler_blaster.txt       Baby Face's Blaster
+    tf_weapon_pistol_scout.txt              Pistol and reskins
+    tf_weapon_handgun_scout_secondary.txt   Winger, Pretty Boy's Pocket Pistol
+    tf_weapon_cleaver.txt                   Flying Guillotine
+    tf_weapon_lunchbox_drink.txt            Bonk! Atomic Punch, Crit-a-Cola
+    tf_weapon_jar_milk.txt                  Mad Milk, Jarate, Gas Passer
+    tf_weapon_bat.txt                       Bat and all reskins, Candy Cane, Boston Basher, Sun-on-a-Stick, Fan O'War, Atomizer
+    tf_weapon_bat_fish.txt                  Holy Mackerel
+    tf_weapon_bat_wood.txt                  Sandman
+    tf_weapon_bat_giftwarp.txt              Wrap Assassin
+Soldier
+    tf_weapon_rocketlauncher.txt            Rocket Launcher, Black Box, Original, Liberty Launcher, Beggar's Bazooka
+    tf_weapon_rocketlauncher_directhit.txt  Direct Hit
+    tf_weapon_particle_cannon.txt           Cow Mangler 5000
+    tf_weapon_rocketlauncher_airstrike.txt  Air Strike
+    tf_weapon_shotgun_soldier.txt           Shotgun, Reserve Shooter, Panic Attack
+    tf_weapon_buff_item.txt                 Buff Banner, Battalion's Backup, Concheror
+    tf_weapon_raygun.txt                    Righteous Bison
+    tf_weapon_shovel.txt                    Shovel and all reskins, Equalizer, Pain Train, Disciplinary Action, Market Gardener, Escape Plan
+    tf_weapon_katana.txt                    Half-Zatoichi
+Pyro
+    tf_weapon_flamethrower.txt              Flame Thrower and all reskins, Backburner, Degreaser, Phlogistinator
+    tf_weapon_rocketlauncher_fireball.txt   Dragon's Fury
+    tf_weapon_shotgun_pyro.txt              Shotgun, Reserve Shooter, Panic Attack
+    tf_weapon_flaregun.txt                  Flare Gun, Detonator, Scorch Shot
+    tf_weapon_flaregun_revenge.txt          Manmelter
+    tf_weapon_tf_weapon_rocketpack.txt      Thermal Thruster
+    tf_weapon_jar.txt                       Gas Passer, Jarate, Mad Milk
+    tf_weapon_fireaxe.txt                   Fire Axe, Lollichop, Axtinguisher and reskin, Homewrecker and reskin, Powerjack, Back Scratcher, Sharpened Volcano Fragment, Third Degree, Neo
+    tf_weapon_tf_weapon_slap.txt            Hot Hand
+Demoman
+    tf_weapon_grenadelauncher.txt           Grenade Launcher, Loch-n-Load, Iron Bomber
+    tf_weapon_cannon.txt                    Loose Cannon
+    tf_weapon_pipebomblauncher.txt          Stickybomb Launcher, Scottish Resistance, Sticky Jumper, Quickiebomb Launcher
+    tf_weapon_bottle.txt                    Bottle and all reskins
+    tf_weapon_sword.txt                     Eyelander, Scotsman's Skullcutter, Claidheamh Mòr, Persian Persuader, Pain Train
+    tf_weapon_stickbomb.txt                 Ullapool Caber
+    tf_weapon_katana.txt                    Half-Zatoichi
+Heavy
+    tf_weapon_minigun.txt                   Minigun, Natascha, Brass Beast, Tomislav, Huo-Long Heater
+    tf_weapon_shotgun_hwg.txt               Shotgun, Family Business, Panic Attack
+    tf_weapon_lunchbox.txt                  Sandvich, Dalokohs Bar and reskin, Buffalo Steak Sandvich, Second Banana
+    tf_weapon_fists.txt                     Fists and all reskins, Killing Gloves of Boxing, Gloves of Running Urgently, Warrior's Spirit, Fists of Steel, Eviction Notice, Holiday Punch
+Engineer
+    tf_weapon_shotgun_primary.txt           Shotgun, Widowmaker, Panic Attack
+    tf_weapon_drg_pompson.txt               Pomson 6000
+    tf_weapon_shotgun_building_rescue.txt   Rescue Ranger
+    tf_weapon_sentry_revenge.txt            Frontier Justice
+    tf_weapon_pistol.txt                    Pistol
+    tf_weapon_laser_pointer.txt             Wrangler and reskin
+    tf_weapon_mechanical_arm.txt            Short Circuit
+    tf_weapon_wrench.txt                    Wrench, Southern Hospitality, Jag, Eureka Effect
+    tf_weapon_robot_arm.txt                 Gunslinger
+    tf_weapon_pda_engineer_build.txt        Build PDA
+    tf_weapon_pda_engineer_destroy.txt      Destroy PDA
+    tf_weapon_builder.txt                   Placing a building
+Medic
+    tf_weapon_syringegun_medic.txt          Syringe Gun, Blutsauger, Overdose
+    tf_weapon_crossbow.txt                  Crusader's Crossbow
+    tf_weapon_medigun.txt                   Medi Gun, Kritzkrieg, Quick-Fix, Vaccinator
+    tf_weapon_bonesaw.txt                   Bonesaw and all reskins, Ubersaw, Vita-Saw, Amputator, Solemn Vow
+Sniper
+    tf_weapon_sniperrifle.txt               Sniper Rifle, Sydney Sleeper, Bazaar Bargain, Machina
+    tf_weapon_compound_bow.txt              Huntsman and reskin
+    tf_weapon_sniperrifle_decap.txt         Hitman's Heatmaker
+    tf_weapon_sniperrifle_classic.txt       Classic
+    tf_weapon_smg.txt                       Submachine Gun (SMG)
+    tf_weapon_charged_smg.txt               Cleaner's Carbine
+    tf_weapon_jar.txt                       Jarate, Mad Milk and Gas Passer
+    tf_weapon_club.txt                      Kukri and all reskins, Tribalman's Shiv, Bushwacka, Shahanshah
+Spy
+    tf_weapon_revolver.txt                  Revolver, Ambassador, L'Etranger, Enforcer, Diamondback
+    tf_weapon_knife.txt                     Knife and all reskins, Your Eternal Reward and reskin, Conniver's Kunai, Big Earner, Spy-cicle
+    tf_weapon_sapper.txt                    Sapper
+    tf_weapon_pda_spy.txt                   Disguise kit
+
+
+By weapon:
+Scout
+    Scattergun, Force-A-Nature, Back Scatter        tf_weapon_scattergun.txt
+    Soda Popper                                     tf_weapon_soda_popper.txt
+    Shortstop                                       tf_weapon_handgun_Scout_primary.txt
+    Baby Face's Blaster                             tf_weapon_pep_brawler_blaster.txt
+    Pistol and reskins                              tf_weapon_pistol_Scout.txt
+    Winger, Pretty Boy's Pocket Pistol              tf_weapon_handgun_Scout_secondary.txt
+    Flying Guillotine                               tf_weapon_cleaver.txt
+    Bonk! Atomic Punch, Crit-a-Cola                 tf_weapon_lunchbox_drink.txt
+    Mad Milk, Jarate, Gas Passer                    tf_weapon_jar_milk.txt
+    Bat and all reskins, Candy Cane, Boston Basher, Sun-on-a-Stick, Fan O'War, Atomizer
+                                                    tf_weapon_bat.txt
+    Holy Mackerel                                   tf_weapon_bat_fish.txt
+    Sandman                                         tf_weapon_bat_wood.txt
+    Wrap Assassin                                   tf_weapon_bat_giftwarp.txt
+Soldier
+    Rocket Launcher, Black Box, Original, Liberty Launcher, Beggar's Bazooka
+                                                    tf_weapon_rocketlauncher.txt
+    Direct Hit                                      tf_weapon_rocketlauncher_directhit.txt
+    Cow Mangler 5000                                tf_weapon_particle_cannon.txt
+    Air Strike                                      tf_weapon_rocketlauncher_airstrike.txt
+    Shotgun, Reserve Shooter, Panic Attack          tf_weapon_shotgun_Soldier.txt
+    Buff Banner, Battalion's Backup, Concheror      tf_weapon_buff_item.txt
+    Righteous Bison                                 tf_weapon_raygun.txt
+    Shovel and all reskins, Equalizer, Pain Train, Disciplinary Action, Market Gardener, Escape Plan
+                                                    tf_weapon_shovel.txt
+    Half-Zatoichi                                   tf_weapon_katana.txt
+Pyro
+    Flame Thrower and all reskins, Backburner, Degreaser, Phlogistinator
+                                                    tf_weapon_flamethrower.txt
+    Dragon's Fury                                   tf_weapon_rocketlauncher_fireball.txt
+    Shotgun, Reserve Shooter, Panic Attack          tf_weapon_shotgun_pyro.txt
+    Flare Gun, Detonator, Scorch Shot               tf_weapon_flaregun.txt
+    Manmelter                                       tf_weapon_flaregun_revenge.txt
+    Thermal Thruster                                tf_weapon_tf_weapon_rocketpack.txt
+    Gas Passer, Jarate, Mad Milk                    tf_weapon_jar.txt
+    Fire Axe, Lollichop, Axtinguisher and reskin, Homewrecker and reskin, Powerjack, Back Scratcher, Sharpened Volcano Fragment, Third Degree, Neo
+                                                    tf_weapon_fireaxe.txt
+    Hot Hand                                        tf_weapon_tf_weapon_slap.txt
+Demoman
+    Grenade Launcher, Loch-n-Load, Iron Bomber      tf_weapon_grenadelauncher.txt
+    Loose Cannon                                    tf_weapon_cannon.txt
+    Stickybomb Launcher, Scottish Resistance, Sticky Jumper, Quickiebomb Launcher
+                                                    tf_weapon_pipebomblauncher.txt
+    Bottle and all reskins                          tf_weapon_bottle.txt
+    Eyelander, Scotsman's Skullcutter, Claidheamh Mòr, Persian Persuader, Pain Train
+                                                    tf_weapon_sword.txt
+    Ullapool Caber                                  tf_weapon_stickbomb.txt
+    Half-Zatoichi                                   tf_weapon_katana.txt
+Heavy
+    Minigun, Natascha, Brass Beast, Tomislav, Huo-Long Heater
+                                                    tf_weapon_minigun.txt
+    Shotgun, Family Business, Panic Attack          tf_weapon_shotgun_hwg.txt
+    Sandvich, Dalokohs Bar and reskin, Buffalo Steak Sandvich, Second Banana
+                                                    tf_weapon_lunchbox.txt
+    Fists and all reskins, Killing Gloves of Boxing, Gloves of Running Urgently, Warrior's Spirit, Fists of Steel, Eviction Notice, Holiday Punch
+                                                    tf_weapon_fists.txt
+Engineer
+    Shotgun, Widowmaker, Panic Attack               tf_weapon_shotgun_primary.txt
+    Pomson 6000                                     tf_weapon_drg_pompson.txt
+    Rescue Ranger                                   tf_weapon_shotgun_building_rescue.txt
+    Frontier Justice                                tf_weapon_sentry_revenge.txt
+    Pistol                                          tf_weapon_pistol.txt
+    Wrangler and reskin                             tf_weapon_laser_pointer.txt
+    Short Circuit                                   tf_weapon_mechanical_arm.txt
+    Wrench, Southern Hospitality, Jag, Eureka Effect
+                                                    tf_weapon_wrench.txt
+    Gunslinger                                      tf_weapon_robot_arm.txt
+    Build PDA                                       tf_weapon_pda_engineer_build.txt
+    Destroy PDA                                     tf_weapon_pda_engineer_destroy.txt
+    Placing a building                              tf_weapon_builder.txt
+Medic
+    Syringe Gun, Blutsauger, Overdose               tf_weapon_syringegun_medic.txt
+    Crusader's Crossbow                             tf_weapon_crossbow.txt
+    Medi Gun, Kritzkrieg, Quick-Fix, Vaccinator     tf_weapon_medigun.txt
+    Bonesaw and all reskins, Ubersaw, Vita-Saw, Amputator, Solemn Vow
+                                                    tf_weapon_bonesaw.txt
+Sniper
+    Sniper Rifle, Sydney Sleeper, Bazaar Bargain, Machina
+                                                    tf_weapon_sniperrifle.txt
+    Huntsman and reskin                             tf_weapon_compound_bow.txt
+    Hitman's Heatmaker                              tf_weapon_sniperrifle_decap.txt
+    Classic                                         tf_weapon_sniperrifle_classic.txt
+    Submachine Gun (SMG)                            tf_weapon_smg.txt
+    Cleaner's Carbine                               tf_weapon_charged_smg.txt
+    Jarate, Mad Milk and Gas Passer                 tf_weapon_jar.txt
+    Kukri and all reskins, Tribalman's Shiv, Bushwacka, Shahanshah
+                                                    tf_weapon_club.txt
+Spy
+    Revolver, Ambassador, L'Etranger, Enforcer, Diamondback
+                                                    tf_weapon_revolver.txt
+    Knife and all reskins, Your Eternal Reward and reskin, Conniver's Kunai, Big Earner, Spy-cicle
+                                                    tf_weapon_knife.txt
+    Sapper                                          tf_weapon_sapper.txt
+    Disguise kit                                    tf_weapon_pda_spy.txt
