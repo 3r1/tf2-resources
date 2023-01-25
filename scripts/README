@@ -1,13 +1,14 @@
 move-rename-demos.py
     demo processing credit to demopan (https://github.com/vixus0/demopan)
 
-    this script is a vast simplification of demopan because ds_record saves demo
-      files with datetime as name
+    this script is a vast simplification and small upgrade of demopan because
+      ds_record saves demo files with datetime as name and also allows for
+      use of ds_mark markers and automatic scoreboard screenshots
     this removes the requirement of having demopan running alongside tf2
       consequently, this script can be run at any time to pull demos from tf2 at
       your leisure
-    this also allows us to have scoreboard screenshots and ds_mark markers
-        (scoreboard images are automatically created when ds_stop is called)
+    this script also renames scoreboard screenshots and ds_mark marker files
+      scoreboard images are automatically created when ds_stop is called)
     you will have to link the event file in tf/demos/ created by ds_record 
       manually as I feel it's silly to copy/overrite or diffcheck+append
 
@@ -16,10 +17,28 @@ move-rename-demos.py
       appending mapname, playername
 
     example usage:
-    python3 /home/USER/Videos/tf2/move-rename-demos.py -i '/home/USER/.local/share/Steam/steamapps/common/Team Fortress 2/tf/demos/' -o '/home/USER/Videos/tf2/demos/'
+    python3 move-rename-demos.py -i '/home/USER/.local/share/Steam/steamapps/common/Team Fortress 2/tf/demos/' -o '/home/USER/Videos/tf2/demos/'
 
-    consider making an alias
+    example input files created by ds_record:
+      YYYY-MM-DD_HH-MM-SS.dem
+      YYYY-MM-DD_HH-MM-SS.json
+      YYYY-MM-DD_HH-MM-SS.tga
+    example output file after running this python script:
+      YYYY-MM-DD_HH-MM-SS-cp_snakewater_final1-USERNAME.dem
+      YYYY-MM-DD_HH-MM-SS-cp_snakewater_final1-USERNAME.json
+      YYYY-MM-DD_HH-MM-SS-cp_snakewater_final1-USERNAME.tga
+
+    consider making an alias in bashrc
     alias tf2demo "python3 /home/USER/Videos/tf2/move-rename-demos.py -i '/home/USER/.local/share/Steam/steamapps/common/Team Fortress 2/tf/demos/' -o '/home/USER/Videos/tf2/demos/'"
+
+    example autoexec.cfg alias for demo recording and markers in case you're lost
+      alias demo_record_on "say_team Recording...; ds_record; alias demo_record demo_record_off"
+      alias demo_record_off "say_team Stopping recording; ds_stop; alias demo_record demo_record_on"
+      alias demo_record "demo_record_on"
+      bind "f8" "demo_record"
+
+      alias demo_mark_epic "ds_mark something_epic_may_have_occured"
+      bind "f9" "demo_mark_epic"
 
 other
     tba
