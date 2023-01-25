@@ -6,6 +6,7 @@ Over time this will contain everything I have made/edited/etc for TF2
 |-|-|
 |hard|first iteration of high contrast crosshair
 |images|images regarding material related to this repository
+|scripts|scripts for tf2 things
 
 This first crosshair series is based on "xhairshadowdefault". It has higher contrast and additional color with variations.
 

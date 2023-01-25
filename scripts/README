@@ -1,0 +1,26 @@
+move-rename-demos.py
+    demo processing credit to demopan (https://github.com/vixus0/demopan)
+
+    this script is a vast simplification of demopan because ds_record saves demo
+      files with datetime as name
+    this removes the requirement of having demopan running alongside tf2
+      consequently, this script can be run at any time to pull demos from tf2 at
+      your leisure
+    this also allows us to have scoreboard screenshots and ds_mark markers
+        (scoreboard images are automatically created when ds_stop is called)
+    you will have to link the event file in tf/demos/ created by ds_record 
+      manually as I feel it's silly to copy/overrite or diffcheck+append
+
+    What it do tho?
+    For use with ds_record and ds_mark. Moves and renames .dem, .json, and .tga
+      appending mapname, playername
+
+    example usage:
+    python3 /home/USER/Videos/tf2/move-rename-demos.py -i '/home/USER/.local/share/Steam/steamapps/common/Team Fortress 2/tf/demos/' -o '/home/USER/Videos/tf2/demos/'
+
+    consider making an alias
+    alias tf2demo "python3 /home/USER/Videos/tf2/move-rename-demos.py -i '/home/USER/.local/share/Steam/steamapps/common/Team Fortress 2/tf/demos/' -o '/home/USER/Videos/tf2/demos/'"
+
+other
+    tba
+
