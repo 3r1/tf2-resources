@@ -18,7 +18,7 @@
 
 from __future__ import print_function
 
-import os, struct, string
+import os, struct, string, shutil
 
 from argparse import ArgumentParser
 
@@ -53,7 +53,7 @@ def save_dem(dem, out_dir, in_dir):
     out = os.path.join(out_dir, name)
     # out is now fullpath to output file
 
-    os.rename(dem, out)
+    shutil.move(dem, out)
     print('dem saved to: '+out)
     # print('name',name,'\n')
     # print('out_dir',out_dir,'\n')
@@ -66,7 +66,7 @@ def save_dem(dem, out_dir, in_dir):
     if os.path.isfile(demojson):
         jsonout = out[:-3]
         jsonout += "json"
-        os.rename(demojson, jsonout)
+        shutil.move(demojson, jsonout)
         print('json saved to: '+jsonout)
 
     # .tga
@@ -75,7 +75,7 @@ def save_dem(dem, out_dir, in_dir):
     if os.path.isfile(screenshot):
         ssout = out[:-3]
         ssout += "tga"
-        os.rename(screenshot, ssout)
+        shutil.move(screenshot, ssout)
         print('tga saved to: '+ssout)
 
 def main():
