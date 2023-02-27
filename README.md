@@ -15,4 +15,4 @@ This first crosshair series is based on "xhairshadowdefault". It has higher cont
 
 Class icon font edited from https://github.com/Qixalite/tf2-classfont
 
-![image of font characters](/tf2-classicons/font-preview.png)
+![image of font characters](/images/font-preview.png)

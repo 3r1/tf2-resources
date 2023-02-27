@@ -30,9 +30,6 @@ LICENSE
 README.txt
     this file
 
-font-preview.png
-    preview image
-
 tf2-classicons.ttf
     this is the font file you can install
     
