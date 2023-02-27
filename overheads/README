@@ -1,0 +1,21 @@
+wip, will add more maps over time
+
+Overheads merged and edited in gimp from screenshots taken in tf2
+
+how was this done?
+    1. load map in tf2
+    2. use commands:
+        cl_drawhud 0
+        noclip
+            to move around more easily
+        cl_leveloverview 0-10+
+            0 sets view back to normal game view
+            generally you want 2 or 3
+            if you use 1 you will have to take many, many images and merge them
+    3. take a screenshot
+
+files:
+    6s_positions folder
+        hold/push class positions/strategies
+    map folders
+        top-down images of individual capture points and full map
