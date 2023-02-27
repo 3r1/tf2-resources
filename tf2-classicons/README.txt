@@ -33,9 +33,6 @@ README.txt
 font-preview.png
     preview image
 
-fontforge-file.sfd
-    fontforge is a program for editing and creating fonts, this file can be opened in fontforge
-
 tf2-classicons.ttf
     this is the font file you can install
     
