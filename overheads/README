@@ -10,10 +10,15 @@ how can you do this for other maps?
             to move around more easily
         cl_leveloverview 0-10+
             0 sets view back to normal game view
-            generally you want 2 or 3
-            if you use 1 you will have to take many, many images and merge them
+            generally you'll want to use 2 or 3
     3. take a screenshot
     4. do a bunch of editing
+    ?. this is a huge hassle, things clip, certain stuff overlays, what the heck?
+        yep: your vertical position + the vertical camera position above you determines what is seen
+            consequently, you may also experience the camera being above the skybox
+                to fix that, try looking straight down or up before using the cl_leveloverview command 
+                    then, use W and S to adjust your vertical position until you have a good view
+            additionally, try to also align yourself on one of the other two axes so that you can use A and D to move along it
 
 files:
     6s_positions folder
