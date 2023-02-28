@@ -4,7 +4,7 @@ Over time this will contain everything I have made/edited/etc for TF2
 
 |folder|info|
 |-|-|
-|hard|first iteration of high contrast crosshair
+|crosshair|first iteration of high contrast crosshair
 |images|images regarding material related to this repository
 |overheads| top down images of tf2 maps in RGL 6's rotation, also positions/strategies
 |scripts|scripts for tf2 things
